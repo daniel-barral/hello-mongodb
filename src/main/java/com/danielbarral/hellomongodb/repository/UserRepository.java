@@ -1,4 +1,4 @@
-package com.danielbarral.hellomongodb.model.repository;
+package com.danielbarral.hellomongodb.repository;
 
 import java.util.ArrayList;
 import java.util.List;

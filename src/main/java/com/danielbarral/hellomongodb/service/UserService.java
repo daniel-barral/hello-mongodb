@@ -1,4 +1,4 @@
-package com.danielbarral.hellomongodb.controller.service;
+package com.danielbarral.hellomongodb.service;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.danielbarral.hellomongodb.model.User;
-import com.danielbarral.hellomongodb.model.repository.UserRepository;
+import com.danielbarral.hellomongodb.repository.UserRepository;
 
 @Service
 public class UserService {

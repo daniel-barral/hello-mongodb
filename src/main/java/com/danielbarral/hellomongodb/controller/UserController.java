@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.danielbarral.hellomongodb.controller.service.UserService;
+import com.danielbarral.hellomongodb.service.UserService;
 import com.danielbarral.hellomongodb.model.User;
 
 @RestController
