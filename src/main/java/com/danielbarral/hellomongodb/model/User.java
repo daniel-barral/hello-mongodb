@@ -1,7 +1,11 @@
 package com.danielbarral.hellomongodb.model;
 
+import org.springframework.data.annotation.Id;
+
 public class User {
 	
+	@Id
+    public String id;
 	private String name;
 	private String email;
 	
@@ -16,6 +20,12 @@ public class User {
 	}
 	public void setEmail(String email) {
 		this.email = email;
+	}
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
 	}
 
 }

@@ -19,7 +19,7 @@ public class UserService {
 	}
 	
 	public List<User> list() {
-		return userRepository.list();
+		return userRepository.findAll();
 	}
 
 }
