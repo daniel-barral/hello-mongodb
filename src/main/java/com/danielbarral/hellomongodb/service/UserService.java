@@ -10,14 +10,14 @@ import com.danielbarral.hellomongodb.repository.UserRepository;
 
 @Service
 public class UserService {
-	
+
 	@Autowired
 	private UserRepository userRepository;
-	
+
 	public void save(User user) {
 		userRepository.save(user);
 	}
-	
+
 	public List<User> list() {
 		return userRepository.findAll();
 	}

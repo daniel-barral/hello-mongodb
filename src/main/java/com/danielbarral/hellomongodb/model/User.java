@@ -3,12 +3,12 @@ package com.danielbarral.hellomongodb.model;
 import org.springframework.data.annotation.Id;
 
 public class User {
-	
+
 	@Id
-    public String id;
+	public String id;
 	private String name;
 	private String email;
-	
+
 	public String getName() {
 		return name;
 	}
