@@ -25,5 +25,13 @@ public class UserService {
 	public User find(String id) {
 		return userRepository.findOne(id);
 	}
+	
+	public User findByName(String name) {
+		return userRepository.findByName(name);
+	}
+	
+	public User findByEmail(String email) {
+		return userRepository.findByEmail(email);
+	}
 
 }

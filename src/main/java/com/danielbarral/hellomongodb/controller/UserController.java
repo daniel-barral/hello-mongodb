@@ -37,5 +37,15 @@ public class UserController {
 	public User find(@RequestParam(value="id", required=true) String id) {
 		return userService.find(id);
 	}
+	
+	@RequestMapping("/findByName")
+	public User findByName(@RequestParam(value="name", required=true) String name) {
+		return userService.findByName(name);
+	}
+	
+	@RequestMapping("/findByEmail")
+	public User findByEmail(@RequestParam(value="email", required=true) String email) {
+		return userService.findByEmail(email);
+	}
 
 }
