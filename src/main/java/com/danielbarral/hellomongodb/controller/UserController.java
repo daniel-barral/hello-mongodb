@@ -32,5 +32,10 @@ public class UserController {
 	public List<User> list() {
 		return userService.list();
 	}
+	
+	@RequestMapping("/find")
+	public User find(@RequestParam(value="id", required=true) String id) {
+		return userService.find(id);
+	}
 
 }
